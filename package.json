@@ -1,0 +1,30 @@
+{
+  "name": "promisify-this",
+  "version": "1.0.0",
+  "description": "Promisify callback style functions while preserving the caller",
+  "main": "promisify-this.js",
+  "scripts": {
+    "test": "mocha",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "keywords": [
+    "nightwatch",
+    "promisify",
+    "caller"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/billykong/jsonpath-blacklist.git"
+  },
+  "author": "Billy Kong <billyklh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/billykong/promisify-this/issues"
+  },
+  "homepage": "https://github.com/billykong/promisify-this#README",
+  "devDependencies": {
+    "coveralls": "^3.0.11",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.1.1"
+  }
+}
